@@ -1,6 +1,27 @@
-ID,Name,Nickname,Birthday,Gender,Role,Image_Filename,Location,Notes
-1,Amol Ganesh Mahurkar,,22 Feb,Male,,amol_mahurkar.jpg,"Paris, France","Founder of the family"
-2,Mary Smith,Molly,22 Jul ,Female,Matriarch,mary_smith.jpg,"Boston, USA","Married to John"
-3,Robert Smith,Rob,05 Nov 1970,Male,Son,robert_smith.jpg,"Seattle, USA","Eldest child"
-4,Jessica Wilson,Jess,18 Feb 1972,Female,Daughter,sarah_johnson.jpg,"Chicago, USA","Youngest child"
-5,Emily Smith,Em,30 Sep 1995,Female,Granddaughter,emily_smith.jpg,"Denver, USA","Daughter of Robert"
+ID,Name,Nickname,Birthday,Death,Gender,Role,Image_Filename,Location,Notes
+1,Baba1,,,"15 Jan 2010","M",Parent,baba1.jpg,Bhusawal,"Dad's dad"
+2,Aai1,,,"2025","F",Parent,aai1.jpg,Bhusawal,"Dad's mom"
+3,Akka,,,,"M",Uncle,akka.jpg,Bhusawal,
+4,Papa Da,,,,"M",Uncle,papa.jpg,Bhusawal,
+5,Bandi,,,,"F",Aunt,bandi.jpg,Bhusawal,
+6,Nan,,,,"F",Aunt,nan.jpg,Bhusawal,
+7,Dhanashree,,,,"F",Cousin,dhanashree.jpg,Jalgaon,
+8,Tushar,,,,"M",Cousin,tushar.jpg,Bhusawal,
+9,Shweta,,,,"F",Cousin,shweta.jpg,Bhusawal,
+10,Wiraj,,,,"M",Cousin,wiraj.jpg,Bhusawal,
+11,Akhilesh,,,,"M",Cousin,akhilesh.jpg,Nashik,
+12,Aditi,,,,"F",Cousin,aditi.jpg,Nashik,
+13,Pavan,,,,"M",Cousin,pavan.jpg,Jalgaon,
+14,Mona,,,,"F",Cousin,mona.jpg,Jalgaon,
+15,Nivaja,,,,"F",Cousin,nivaja.jpg,Jalgaon,
+16,Babi,,,,"M",Parent,babi.jpg,Adawad,
+17,Chanda,,,,"F",Parent,chanda.jpg,Adawad,
+18,Pintu,,,,"M",Child,pintu.jpg,Adawad,
+19,Bandu,,,,"F",Child,bandu.jpg,Adawad,
+20,Manshi,,,,"F",Child,manshi.jpg,Adawad,
+21,Shruti,,,,"F",Child,shruti.jpg,Adawad,
+22,Pranav,,,,"M",Child,pranav.jpg,Adawad,
+23,Ankita,,,,"F",Child,ankita.jpg,Adawad,
+24,Amol,,,,"M",Child,amol.jpg,Adawad,
+25,Neha,,,,"F",Child,neha.jpg,Adawad,
+26,Sayali,,,,"F",Child,sayali.jpg,Adawad

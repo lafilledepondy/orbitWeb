@@ -120,13 +120,25 @@
                     // Create tooltip with birthday, notes, and name
                     let tooltipContent = `${person.Name}\n`;
                     if (person.Nickname) {
-                      tooltipContent += `Nickname: ${person.Nickname}\n`;
+                        tooltipContent += `Nickname: ${person.Nickname}\n`;
                     }
                     if (person.Birthday) {
-                      tooltipContent += `Birthday: ${person.Birthday}\n`;
+                        tooltipContent += `Birthday: ${person.Birthday}\n`;
+                    }
+                    if (person.Death) {
+                        tooltipContent += `Death: ${person.Death}\n`;
+                    }
+                    // if (person.Gender) {
+                    //     tooltipContent += `Gender: ${person.Gender}\n`;
+                    // }
+                    // if (person.Role) {
+                    //     tooltipContent += `Role: ${person.Role}\n`;
+                    // }
+                    if (person.Location) {
+                        tooltipContent += `Location: ${person.Location}\n`;
                     }
                     if (person.Notes) {
-                      tooltipContent += `${person.Notes}`;
+                        tooltipContent += `Notes: ${person.Notes}`;
                     }
                     
                     nodes.push({

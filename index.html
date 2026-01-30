@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta property="og:title" content="LKB Web" />
-	<meta property="og:image" content="http://thewosochart.000webhostapp.com/img/wosochart.png" />
-	<meta property="og:image:secure_url" content="https://thewosochart.000webhostapp.com/img/wosochart.png" />
-    <title>LKB Web</title>
+	<meta property="og:title" content="Family Tree" />
+	<meta property="og:description" content="Interactive family tree visualization" />
+    <title>Family Tree</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <style type="text/css">
@@ -116,16 +115,28 @@
             peopleData.forEach(person => {
                 if (person.ID && person.Name) {
                     // Use JPG images with proper format
-                    let imageFile = person.Image_Filename || 'default.jpg';
+                    let imageFile = person.Image_Filename ? person.Image_Filename.replace(/\.(jpg|jpeg)$/i, '.png') : 'default.png';
+                    
+                    // Create tooltip with birthday, notes, and name
+                    let tooltipContent = `${person.Name}\n`;
+                    if (person.Nickname) {
+                      tooltipContent += `Nickname: ${person.Nickname}\n`;
+                    }
+                    if (person.Birthday) {
+                      tooltipContent += `Birthday: ${person.Birthday}\n`;
+                    }
+                    if (person.Notes) {
+                      tooltipContent += `${person.Notes}`;
+                    }
+                    
                     nodes.push({
                         id: parseInt(person.ID),
                         label: person.Name,
-                        group: person.Department || person.Type || 'notgrouped',
+                        group: person.Role || 'Family',
                         shape: "circularImage",
                         image: `./img/${imageFile}`,
                         size: 60,
-                        value: parseInt(person.Experience_Years) || 5,
-                        title: person.Bio || person.Name,
+                        title: tooltipContent,
                         borderWidth: 4,
                         borderWidthSelected: 6,
                         brokenImage: './img/default.jpg'

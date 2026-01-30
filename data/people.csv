@@ -1,6 +1,6 @@
-ID,Name,Type,Department,Experience_Years,Image_Filename,Email,Bio
-1,Dr. Jane Smith,Professor,Computer Science,15,jane_smith.jpg,jane.smith@university.edu,"AI researcher specializing in machine learning"
-2,John Doe,PhD Student,Computer Science,3,john_doe.jpg,john.doe@student.edu,"Working on neural networks under Dr. Smith"
-3,Dr. Bob Wilson,Professor,Mathematics,20,bob_wilson.jpg,bob.wilson@university.edu,"Applied mathematics and statistics"
-4,Alice Chen,Master Student,Mathematics,1,alice_chen.jpg,alice.chen@student.edu,"Statistics and data analysis"
-5,Dr. James Johnson,Associate Professor,Computer Science,8,james_johnson.jpg,james.johnson@university.edu,"Human-computer interaction"
+ID,Name,Nickname,Birthday,Gender,Role,Image_Filename,Location,Notes
+1,Amol Ganesh Mahurkar,,22 Feb,Male,,amol_mahurkar.jpg,"Paris, France","Founder of the family"
+2,Mary Smith,Molly,22 Jul ,Female,Matriarch,mary_smith.jpg,"Boston, USA","Married to John"
+3,Robert Smith,Rob,05 Nov 1970,Male,Son,robert_smith.jpg,"Seattle, USA","Eldest child"
+4,Jessica Wilson,Jess,18 Feb 1972,Female,Daughter,sarah_johnson.jpg,"Chicago, USA","Youngest child"
+5,Emily Smith,Em,30 Sep 1995,Female,Granddaughter,emily_smith.jpg,"Denver, USA","Daughter of Robert"
